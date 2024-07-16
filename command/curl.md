@@ -439,6 +439,7 @@ curl ipecho.net/plain
 
 ```ruby
 \n
+Response Code for: %{http_code}\n\n
 Response Time for: %{url_effective}\n\n
 DNS Lookup Time:\t\t%{time_namelookup}s\n
 Redirection Time:\t\t%{time_redirect}s\n
@@ -459,6 +460,7 @@ curl 提供了很多置换变量，可以在格式化字符串中通过 `%{var}`
 - `time_pretransfer`: 从请求开始至服务器准备传送文件所花的时间，包含了传送协商时间；
 - `time_starttransfer`: 从请求开始至服务器准备传送第一个字节所花的时间；
 - `time_total`: 完整耗时。
+- `http_code`: 响应码
 
 然后执行请求，通过 @filename 指定保存了格式化字符串的文件：
 
