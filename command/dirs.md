@@ -3,7 +3,7 @@ dirs
 
 显示目录堆栈。
 
-## 概要
+## 语法
 
 ```shell
 dirs [-clpv] [+N] [-N]
@@ -12,7 +12,6 @@ dirs [-clpv] [+N] [-N]
 ## 主要用途
 
 - 显示目录堆栈。
-
 - 清空目录堆栈。
 
 ## 选项
@@ -75,4 +74,4 @@ dirs [-clpv] [+N] [-N]
 2. 当前目录始终是目录堆栈的顶部。
 3. 该命令是bash内建命令，相关的帮助信息请查看`help`命令。
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+

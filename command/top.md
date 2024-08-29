@@ -25,7 +25,8 @@ top(选项)
 -i<时间>：设置间隔时间；
 -u<用户名>：指定用户名；
 -p<进程号>：指定进程；
--n<次数>：循环显示的次数。
+-n<次数>：循环显示的次数；
+-H：所有线程占用资源情况。
 ```
 
 ###  top交互命令
@@ -89,4 +90,3 @@ Swap:  5144568k total,       56k used,  5144512k free,  2013180k cached
 *  2013180k cached[缓冲的交换区总量],
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
